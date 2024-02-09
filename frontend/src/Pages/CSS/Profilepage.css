@@ -1,0 +1,27 @@
+/* ProfilePageContainer.css */
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-section {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-section h1 {
+    color: #333;
+  }
+  
+  .profile-section p {
+    margin: 10px 0;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #888;
+  }
+  

@@ -1,0 +1,89 @@
+/* YourCarouselStyles.css */
+
+/* Base styles */
+.carousel {
+    padding: 60px 90px;
+  }
+  
+  .carousel-inner .carousel-item img {
+    width: 90%;
+    height: 50%;
+  }
+  
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carousel-caption {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: none;
+    z-index: 2;
+    text-align: left;
+    bottom: 0;
+    padding: 20px 20px 20px 60px;
+  }
+  
+  .carousel-caption h6 {
+    margin-bottom: -15px;
+  }
+  
+  .carousel-caption h2 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    margin-top: -20px;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  
+  /* Responsive styles for max-width: 1260px */
+  @media (max-width: 1260px) {
+    .carousel {
+      padding: 40px;
+    }
+  
+    .carousel-caption {
+      padding: 20px;
+    }
+  
+    .carousel-caption h2 {
+      font-size: 40px;
+    }
+  
+    .carousel-caption p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Responsive styles for max-width: 800px */
+  @media (max-width: 800px) {
+    .carousel {
+      padding: 30px;
+    }
+  
+    .carousel-caption h2 {
+      font-size: 30px;
+    }
+  
+    .carousel-caption p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Responsive styles for max-width: 500px */
+  @media (max-width: 500px) {
+    .carousel {
+      padding: 20px;
+    }
+  
+    .carousel-caption h2 {
+      font-size: 20px;
+    }
+  
+    .carousel-caption p {
+      font-size: 12px;
+    }
+  }
+  
